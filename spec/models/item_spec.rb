@@ -13,6 +13,11 @@ RSpec.describe Item, type: :model do
         item = Item.create(name: 'iPhone')
         expect(item.message).to eq "Item name is iPhone"
       end
+
+      it "returns a valid message second way" do
+        item = Item.create(name: 'iPhone 12348989483948394893849389483989283048203840283048209389402839048209384092830948209348902898402938042893048209348')
+        expect(item.message).not_to eq ""
+      end
     end
   end
 end
