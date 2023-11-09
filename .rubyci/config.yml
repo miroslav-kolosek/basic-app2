@@ -3,18 +3,18 @@
 version: 1
 
 build_packs:
-  rails: {}
   ruby:
     version: 3.2.2
-  node_js:
+  rails: {}
+  #node_js:
     # Available versions: [12..17]
-    version: 14.15.0
-  redis:
+    # version: 14.15.0
+  #redis:
     # Available versions: [5.0, 6.0, 6.2]
-    version: 6.2
-  image_magick:
+    # version: 6.2
+  #image_magick:
     # Available versions: [7.0.10-58]
-    version: 7.0.10-58
-  geckodriver:
+    # version: 7.0.10-58
+  #geckodriver:
     # Available versions: [0.29.1]
-    version: 0.29.1
+    # version: 0.29.1
