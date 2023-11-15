@@ -3,6 +3,8 @@
 version: 1
 
 build_packs:
+  ruby:
+    version: 3.2.2
   rails: {}
   #node_js:
     # Available versions: [12..17]
