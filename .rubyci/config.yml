@@ -4,5 +4,5 @@ build_packs:
   rails: {}
   ruby:
     version: 3.2.2
-  nodejs:
+  nodejs_version:
     version: 18.17.1
